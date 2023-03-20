@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Страница</title>
+  </head>
+
+  <body>
+    <h1 id="anchor">Заголовок</h1>
+    <p><strong>Абзац</strong></p>
+    <button enabled>Нельзя нажимать</button>
+    <p>Список ингредиентов:</p>
+    <ul>
+       
+      <li>Картошка</li>
+       
+      <li>Морковка</li>
+       
+      <li>Свекла</li>
+    </ul>
+    <p>Инструкция по приготовлению:</p>
+    <ol>
+       
+      <li>Довести воду до кипения</li>
+       
+      <li>Засыпать ингредиенты</li>
+       
+      <li>Варить 10 минут</li>
+    </ol>
+    <dl>
+       
+      <dt>Гаспачо</dt>
+      <dd>лёгкий холодный суп из перетёртых в пюре свежих овощей</dd>
+       
+      <dt>Том-ям</dt>
+      <dd>
+        кисло-острый суп на основе куриного бульона с креветками, курицей, рыбой
+        или другими морепродуктами
+      </dd>
+       
+      <dt>Борщ</dt>
+      <dd>
+        разновидность супа на основе свёклы, которая придаёт борщу характерный
+        красный цвет
+      </dd>
+    </dl>
+    <p>Вложенный список</p>
+    <ul>
+      <li>
+        Омлет
+        <ul>
+          <li>Молоко</li>
+          <li>Яйца</li>
+        </ul>
+      </li>
+      <li>
+        Блинчики
+        <ul>
+          <li>Молоко</li>
+          <li>Яйца</li>
+          <li>Мука</li>
+          <li>Сахар</li>
+          <li>Соль</li>
+          <li>Разрыхлитель</li>
+        </ul>
+      </li>
+      <li>Торт</li>
+      <li>Пирог</li>
+      <a href="#anchor">Перейти к якорю</a>
+      <img
+         src="https://avatars.mds.yandex.net/get-mpic/5231591/img_id6224699554999716392.jpeg/orig"
+         title="Пьяная Мурка"
+         alt="Рыжая кошка валяется в снегу"
+      />
+      <!--       <figure>
+        <img
+          src="https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666336004_26-mykaleidoscope-ru-p-zloi-rik-i-morti-oboi-28.png"
+        />
+        <figcaption>Просто классный Рик</figcaption>
+      </figure> -->
+      <a href="https://google.com/">Google</a>
+    </ul>
+    <h1 style="text-align: center" id="tables">Таблицы</h1>
+    <table border="1">
+      <tr>
+        <th>Имя</th>
+        <th>Возраст</th>
+        <th>Суперспособность</th>
+      </tr>
+      <tr>
+        <td>Логан</td>
+        <td>186</td>
+        <td>Повышенная способность к регенерации</td>
+      </tr>
+      <tr>
+        <td>Профессор икс</td>
+              
+        <td>94</td>
+        <td>
+          Чтение мыслей, вызов иллюзий, временного паралича, способность
+          останавливать время
+        </td>
+      </tr>
+    </table>
+    <p></p>
+    <table border="1">
+      <caption>
+        Сотрудники отдела поддержки
+      </caption>
+      <thead>
+        <tr>
+          <th>Имя</th>
+          <th>Должность</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Петя</td>
+          <td>Менеджер</td>
+        </tr>
+        <tr>
+          <td>Маша</td>
+          <td>Разработчик</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Вася</td>
+          <td>Девопс</td>
+        </tr>
+      </tfoot>
+    </table>
+    <p></p>
+    <table border="1" style="text-align: center">
+      <tr>
+        <td>Первая ячейка</td>
+        <td>Вторая ячейка</td>
+        <td>Третья ячейка</td>
+      </tr>
+      <tr>
+        <td colspan="3">Единственная ячейка</td>
+      </tr>
+    </table>
+    <p></p>
+    <table border="1">
+      <tr>
+        <td rowspan="2">Левая ячейка</td>
+        <td>Верхняя ячейка</td>
+      </tr>
+      <tr>
+        <td>Нижняя ячейка</td>
+      </tr>
+    </table>
+    <p></p>
+    <table border="1">
+      <tr>
+        <td rowspan="2">Левая ячейка</td>
+        <td>Средняя ячейка</td>
+        <td>Правая ячейка</td>
+      </tr>
+      <tr>
+        <td colspan="2">Нижняя ячейка</td>
+      </tr>
+    </table>
+    <p></p>
+    <h1 style="text-align: center">Типы полей форм</h1>
+    <p></p>
+    <input type="text" />
+    <p></p>
+    <input type="password" />
+    <p></p>
+    <input type="checkbox" />
+    <p></p>
+    <input type="radio" name="gender" value="male" /> Мужской<br />
+    <input type="radio" name="gender" value="female" /> Женский<br />
+    <input type="radio" name="gender" value="other" /> Другой
+    <p></p>
+    <input type="file" />
+    <p></p>
+    <input type="reset" />
+    <p></p>
+    <input type="submit" />
+    <p></p>
+    <button>Нажми на меня</button>
+    <p></p>
+    <h3>Раскрывающийся список – select</h3>
+    <p>
+      У селекта есть несколько атрибутов: name, size, multiple. Атрибут
+      <strong>name</strong> работает как у радио-переключателей.
+      <strong>Size</strong> за количество отображаемых строк списка. В качестве
+      значения туда пижется положительное целое число. Атрибут
+      <strong>multiple</strong>
+      отвечает за то, можно ли выбрать сразу несколько вариантов из списка (как
+      чекбокс), это атрибут без значения.
+      <br />
+      Каждый элемент списка выделяется в тег option. Так же, как и с
+      <code>input type="checkbox"</code> и
+      <code>input type="radio"</code> нужно указывать атрибут value со
+      значением, которое будет отправлено на сервер.
+    </p>
+    <br />
+    <form>
+      Выберите количество бигмаков<br />
+      <select>
+        <option name="list" size="4" multiple value="">
+          нулем сыт не будешь
+        </option>
+        <option name="list" size="4" multiple value="1">раз</option>
+        <option name="list" size="4" multiple value="2">два</option>
+        <option name="list" size="4" multiple value="3">три</option>
+      </select>
+      <input type="submit" value="Заказать" />
+    </form>
+  </body>
+</html>
+
+<!--%20 - код пробела в URI-кодировании -->
